@@ -22,7 +22,7 @@ sudo apt update -y ; sudo apt install default-jdk git-core gnupg flex bison gper
 ```
 ###For archlinux
 ```
-sudo pacman -Syu ; yay -S jdk-openjdk git gnupg flex bison gperf  base-devel  zip curl lib32-glibc ncurses xorgproto libx11 readline mesa python make sudo gcc bc grep tofrodos python-markdown libxml2 ncurses5-compat-libs libc6 ncurses make repo cpio kmod openssl libelf pahole 
+sudo pacman -Syu ; yay -S jdk-openjdk git gnupg flex bison gperf  base-devel  zip curl lib32-glibc ncurses xorgproto libx11 readline mesa python make sudo gcc bc grep  python-markdown libxml2 ncurses5-compat-libs libc6 ncurses make repo cpio kmod openssl libelf pahole 
 ```
 <br>❗The video Guide for this tutorial can be found here : Open in YouTube </h3>
 <br>
