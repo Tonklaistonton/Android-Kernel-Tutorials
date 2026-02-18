@@ -68,10 +68,39 @@ openssl-devel libarchive zstd rsync
 </details>
 
 </details>
-<summary><strong>🍎 Macos</strong></summary>
+<summary><strong>🍎 Macos (INTEL)</strong></summary>
+
+1.install Xcode Command Line Tools.
 
 ```bash
 xcode-select --install
+```
+
+2.install Homebrew.
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+3.Install packages via Homebrew.
+
+```bash
+brew install dtc lz4 xz zlib openjdk@17 python3 p7zip gnupg flex bison gperf make curl libxml2 libxslt libelf zstd rsync openssl repo erofs-utils
+```
+
+4.Install Android Platform Tools.
+
+```bash
+brew install --cask android-platform-tools
+```
+
+5.Setting Environment Variables (Required)
+
+```bash
+echo 'export PATH="/opt/homebrew/opt/bison/bin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 <br>
