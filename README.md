@@ -66,7 +66,8 @@ libxml2 libxslt dos2unix kmod openssl elfutils-libelf-devel dwarves \
 openssl-devel libarchive zstd rsync
 ```
 </details>
-<summary><strong>🍎 Macos </strong></summary>
+<summary><strong>🍎 Macos</strong></summary>
+
 1.install Xcode Command Line Tools.
 
 ```bash
