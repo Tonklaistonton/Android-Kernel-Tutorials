@@ -20,8 +20,8 @@
 **Requirements:**
 - A working 🧠  
 - Patience  
-- A x86_64 (AMD64) Linux-based PC/Server (Debian-based recommended)  
-- Basic knowledge of Linux commands and Bash scripting  
+- A x86_64 (AMD64) Linux-based and Unix PC/Server (Debian-based recommended)  
+- Basic knowledge of Unix commands and Bash scripting  
 - Basic knowledge of version control (Git)  
   - This is good practice when building a kernel. Imagine you edit some files and realize you've messed up the source - this one single command `git stash` can help you revert all the uncommitted changes you made. How cool is that :)  
 
