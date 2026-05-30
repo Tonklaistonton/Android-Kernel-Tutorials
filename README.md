@@ -67,8 +67,8 @@ openssl-devel libarchive zstd rsync
 ```
 </details>
 
-</details>
-<summary><strong>🍎 Macos (INTEL)</strong></summary>
+<details>
+<summary><strong>🍎 macOS (Intel)</strong></summary>
 
 1.install Xcode Command Line Tools.
 
